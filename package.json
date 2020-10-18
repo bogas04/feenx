@@ -1,0 +1,28 @@
+{
+  "name": "feenx",
+  "version": "1.0.0",
+  "description": "A no/low-code solution for creating NextJS based React Applications",
+  "scripts": {
+    "start": "next",
+    "build": "next build && next export -o docs && touch docs/.nojekyll",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "nextjs",
+    "no-code"
+  ],
+  "author": "bogas04@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "idb-keyval": "^3.2.0",
+    "next": "^9.5.5",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.8",
+    "@types/react": "^16.9.52"
+  }
+}
